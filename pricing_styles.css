@@ -1,0 +1,30 @@
+html{
+    background: black;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.base, .mid, .premium{
+    background: white;
+    margin: 6px;
+    width: 150px;
+    height: 30vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 50px #30A2FF;
+}
+@media(max-width:600px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+}
